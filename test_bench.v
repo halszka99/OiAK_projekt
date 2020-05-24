@@ -40,7 +40,7 @@ module test();
 						begin
 							{y[0:5]}=j; 
 							#1
-							$display("%d%d%d%d%d%d%d",s[0],s[1],s[2],s[3],s[4],s[5],s[6]);
+							$display("%d%d%d%d%d%d + %d%d%d%d%d%d = %d%d%d%d%d%d%d",x[0],x[1],x[2],x[3],x[4],x[5],y[0],y[1],y[2],y[3],y[4],y[5],s[0],s[1],s[2],s[3],s[4],s[5],s[6]);
 							if({s[0:6]}!={x[0:5]}+{y[0:5]})
 								begin
 									errornum=errornum+1; 								

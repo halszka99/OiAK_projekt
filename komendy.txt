@@ -1,0 +1,18 @@
+TESTS
+
+$ iverilog -o test_bench in.v dot.v adder.v test_bench.v
+$ vvp test_bench
+
+YOSYS
+
+$ yosys
+> read_verilog in.v dot.v adder.v
+> show adder
+> show dot
+> show in
+
+QFLOW 
+
+
+
+
