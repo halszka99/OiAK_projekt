@@ -1,0 +1,34 @@
+Qflow gdsii logfile created on pią, 5 cze 2020, 23:51:04 CEST
+magic -dnull -noconsole  /home/karolina/OiAK_projekt/layout/generate_gds_adder.tcl
+
+Magic 8.2 revision 157 - Compiled on Thu, 07 Nov 2019 21:14:45 +0100.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Input style lambda=0.30(p): scaleFactor=30, multiplier=1
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+4 Magic internal units = 1 Lambda
+Loading "/home/karolina/OiAK_projekt/layout/generate_gds_adder.tcl" from command line.
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:    0.00 x 0.00    (  0.00,  0.00 ), (  0.00,  0.00 )
+lambda:     0.00 x 0.00    (  0.00,  0.00 ), (  0.00,  0.00 )
+internal:      0 x 0       (     0,  0    ), (     0,  0    )
+Cannot open /usr/share/qflow/tech/osu050/osu05_stdcells.gds2.gds, /usr/share/qflow/tech/osu050/osu05_stdcells.gds2.strm or /usr/share/qflow/tech/osu050/osu05_stdcells.gds2 to read GDS-II stream input.
+Scaled magic input cell adder geometry by factor of 2
+Scaled magic input cell BUFX2 geometry by factor of 4
+Scaled magic input cell XOR2X1 geometry by factor of 4
+Scaled magic input cell INVX1 geometry by factor of 4
+Scaled magic input cell NOR2X1 geometry by factor of 4
+Scaled magic input cell FILL geometry by factor of 4
+Scaled magic input cell NAND2X1 geometry by factor of 4
+Scaled magic input cell AND2X2 geometry by factor of 4
+Processing timestamp mismatches: AND2X2, NAND2X1, FILL, NOR2X1, INVX1, XOR2X1, BUFX2.
+GDS generating script ended on pią, 5 cze 2020, 23:51:04 CEST

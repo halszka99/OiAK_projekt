@@ -1,0 +1,351 @@
+
+Qflow static timing analysis logfile appended on pią, 5 cze 2020, 23:42:46 CEST
+Running vesta static timing analysis
+vesta --long in.rtlnopwr.v /usr/share/qflow/tech/osu050/osu05_stdcells.lib
+----------------------------------------------
+Vesta static timing analysis tool
+for qflow 1.3.17
+(c) 2013-2018 Tim Edwards, Open Circuit Design
+----------------------------------------------
+
+Parsing library "osu05_stdcells"
+End of library at line 6606
+Parsing module "in"
+Lib read /usr/share/qflow/tech/osu050/osu05_stdcells.lib:  Processed 6607 lines.
+Verilog netlist read:  Processed 21 lines.
+Number of paths analyzed:  0
+
+Top 0 maximum delay paths:
+Computed maximum clock frequency (zero margin) = inf MHz
+-----------------------------------------
+
+Number of paths analyzed:  0
+
+Top 0 minimum delay paths:
+Design meets minimum hold timing.
+-----------------------------------------
+
+Number of paths analyzed:  3
+
+Top 3 maximum delay paths:
+Path input pin y to output pin g delay 412.526 ps
+      0.0 ps    y:            ->  INVX1_1/A
+    106.0 ps  _0_:  INVX1_1/Y -> NOR2X1_1/A
+    252.6 ps  _2_: NOR2X1_1/Y ->  BUFX2_1/A
+    412.5 ps    g:  BUFX2_1/Y -> g
+
+Path input pin y to output pin p delay 373.315 ps
+      0.0 ps    y:             ->   INVX1_1/A
+    106.0 ps  _0_:   INVX1_1/Y -> NAND2X1_1/A
+    219.1 ps  _4_: NAND2X1_1/Y ->   BUFX2_3/A
+    373.3 ps    p:   BUFX2_3/Y -> p
+
+Path input pin x to output pin h delay 312.971 ps
+      0.0 ps    x:            -> XOR2X1_1/B
+    157.2 ps  _3_: XOR2X1_1/Y ->  BUFX2_2/A
+    313.0 ps    h:  BUFX2_2/Y -> h
+
+-----------------------------------------
+
+Number of paths analyzed:  3
+
+Top 3 minimum delay paths:
+Path input pin y to output pin h delay 269.923 ps
+      0.0 ps    y:            -> XOR2X1_1/A
+    124.5 ps  _3_: XOR2X1_1/Y ->  BUFX2_2/A
+    269.9 ps    h:  BUFX2_2/Y -> h
+
+Path input pin y to output pin p delay 300.632 ps
+      0.0 ps    y:             ->   INVX1_1/A
+    106.0 ps  _0_:   INVX1_1/Y -> NAND2X1_1/A
+    162.2 ps  _4_: NAND2X1_1/Y ->   BUFX2_3/A
+    300.6 ps    p:   BUFX2_3/Y -> p
+
+Path input pin x to output pin g delay 328.176 ps
+      0.0 ps    x:            ->  INVX1_2/A
+    107.8 ps  _1_:  INVX1_2/Y -> NOR2X1_1/B
+    190.5 ps  _2_: NOR2X1_1/Y ->  BUFX2_1/A
+    328.2 ps    g:  BUFX2_1/Y -> g
+
+-----------------------------------------
+
+
+Qflow static timing analysis logfile appended on pią, 5 cze 2020, 23:43:27 CEST
+Running vesta static timing analysis
+vesta --long in.rtlnopwr.v /usr/share/qflow/tech/osu050/osu05_stdcells.lib
+----------------------------------------------
+Vesta static timing analysis tool
+for qflow 1.3.17
+(c) 2013-2018 Tim Edwards, Open Circuit Design
+----------------------------------------------
+
+Parsing library "osu05_stdcells"
+End of library at line 6606
+Parsing module "in"
+Lib read /usr/share/qflow/tech/osu050/osu05_stdcells.lib:  Processed 6607 lines.
+Verilog netlist read:  Processed 21 lines.
+Number of paths analyzed:  0
+
+Top 0 maximum delay paths:
+Computed maximum clock frequency (zero margin) = inf MHz
+-----------------------------------------
+
+Number of paths analyzed:  0
+
+Top 0 minimum delay paths:
+Design meets minimum hold timing.
+-----------------------------------------
+
+Number of paths analyzed:  3
+
+Top 3 maximum delay paths:
+Path input pin y to output pin g delay 412.526 ps
+      0.0 ps    y:            ->  INVX1_1/A
+    106.0 ps  _0_:  INVX1_1/Y -> NOR2X1_1/A
+    252.6 ps  _2_: NOR2X1_1/Y ->  BUFX2_1/A
+    412.5 ps    g:  BUFX2_1/Y -> g
+
+Path input pin y to output pin p delay 373.315 ps
+      0.0 ps    y:             ->   INVX1_1/A
+    106.0 ps  _0_:   INVX1_1/Y -> NAND2X1_1/A
+    219.1 ps  _4_: NAND2X1_1/Y ->   BUFX2_3/A
+    373.3 ps    p:   BUFX2_3/Y -> p
+
+Path input pin x to output pin h delay 312.971 ps
+      0.0 ps    x:            -> XOR2X1_1/B
+    157.2 ps  _3_: XOR2X1_1/Y ->  BUFX2_2/A
+    313.0 ps    h:  BUFX2_2/Y -> h
+
+-----------------------------------------
+
+Number of paths analyzed:  3
+
+Top 3 minimum delay paths:
+Path input pin y to output pin h delay 269.923 ps
+      0.0 ps    y:            -> XOR2X1_1/A
+    124.5 ps  _3_: XOR2X1_1/Y ->  BUFX2_2/A
+    269.9 ps    h:  BUFX2_2/Y -> h
+
+Path input pin y to output pin p delay 300.632 ps
+      0.0 ps    y:             ->   INVX1_1/A
+    106.0 ps  _0_:   INVX1_1/Y -> NAND2X1_1/A
+    162.2 ps  _4_: NAND2X1_1/Y ->   BUFX2_3/A
+    300.6 ps    p:   BUFX2_3/Y -> p
+
+Path input pin x to output pin g delay 328.176 ps
+      0.0 ps    x:            ->  INVX1_2/A
+    107.8 ps  _1_:  INVX1_2/Y -> NOR2X1_1/B
+    190.5 ps  _2_: NOR2X1_1/Y ->  BUFX2_1/A
+    328.2 ps    g:  BUFX2_1/Y -> g
+
+-----------------------------------------
+
+
+Qflow static timing analysis logfile appended on pią, 5 cze 2020, 23:43:54 CEST
+Running vesta static timing analysis
+vesta --long dot.rtlnopwr.v /usr/share/qflow/tech/osu050/osu05_stdcells.lib
+----------------------------------------------
+Vesta static timing analysis tool
+for qflow 1.3.17
+(c) 2013-2018 Tim Edwards, Open Circuit Design
+----------------------------------------------
+
+Parsing library "osu05_stdcells"
+End of library at line 6606
+Parsing module "dot"
+Lib read /usr/share/qflow/tech/osu050/osu05_stdcells.lib:  Processed 6607 lines.
+Verilog netlist read:  Processed 26 lines.
+Number of paths analyzed:  0
+
+Top 0 maximum delay paths:
+Computed maximum clock frequency (zero margin) = inf MHz
+-----------------------------------------
+
+Number of paths analyzed:  0
+
+Top 0 minimum delay paths:
+Design meets minimum hold timing.
+-----------------------------------------
+
+Number of paths analyzed:  2
+
+Top 2 maximum delay paths:
+Path input pin Gl to output pin Ghl delay 309.749 ps
+      0.0 ps   Gl:             -> NAND2X1_1/A
+     76.2 ps  _1_: NAND2X1_1/Y -> NAND2X1_2/B
+    161.6 ps  _2_: NAND2X1_2/Y ->   BUFX2_1/A
+    309.7 ps  Ghl:   BUFX2_1/Y -> Ghl
+
+Path input pin Pl to output pin Phl delay 301.075 ps
+      0.0 ps   Pl:            -> AND2X2_1/B
+    153.6 ps  _3_: AND2X2_1/Y ->  BUFX2_2/A
+    301.1 ps  Phl:  BUFX2_2/Y -> Phl
+
+-----------------------------------------
+
+Number of paths analyzed:  2
+
+Top 2 minimum delay paths:
+Path input pin Gh to output pin Ghl delay 249.758 ps
+      0.0 ps   Gh:             ->   INVX1_1/A
+     59.4 ps  _0_:   INVX1_1/Y -> NAND2X1_2/A
+    117.4 ps  _2_: NAND2X1_2/Y ->   BUFX2_1/A
+    249.8 ps  Ghl:   BUFX2_1/Y -> Ghl
+
+Path input pin Ph to output pin Phl delay 258.694 ps
+      0.0 ps   Ph:            -> AND2X2_1/A
+    126.2 ps  _3_: AND2X2_1/Y ->  BUFX2_2/A
+    258.7 ps  Phl:  BUFX2_2/Y -> Phl
+
+-----------------------------------------
+
+
+Qflow static timing analysis logfile appended on pią, 5 cze 2020, 23:44:10 CEST
+Running vesta static timing analysis
+vesta --long adder.rtlnopwr.v /usr/share/qflow/tech/osu050/osu05_stdcells.lib
+----------------------------------------------
+Vesta static timing analysis tool
+for qflow 1.3.17
+(c) 2013-2018 Tim Edwards, Open Circuit Design
+----------------------------------------------
+
+Parsing library "osu05_stdcells"
+End of library at line 6606
+Parsing module "adder"
+Lib read /usr/share/qflow/tech/osu050/osu05_stdcells.lib:  Processed 6607 lines.
+Verilog netlist read:  Processed 112 lines.
+Number of paths analyzed:  0
+
+Top 0 maximum delay paths:
+Computed maximum clock frequency (zero margin) = inf MHz
+-----------------------------------------
+
+Number of paths analyzed:  0
+
+Top 0 minimum delay paths:
+Design meets minimum hold timing.
+-----------------------------------------
+
+Number of paths analyzed:  7
+
+Top 7 maximum delay paths:
+Path input pin y0 to output pin s5 delay 1959.1 ps
+      0.0 ps        y0:              ->    INVX1_8/A
+     68.7 ps      _21_:    INVX1_8/Y ->   NOR2X1_1/A
+    356.3 ps   dot0_Gl:   NOR2X1_1/Y ->  NAND2X1_1/A
+    539.0 ps       _8_:  NAND2X1_1/Y ->  NAND2X1_2/B
+    804.2 ps  dot0_Ghl:  NAND2X1_2/Y ->  NAND2X1_7/A
+    982.7 ps      _14_:  NAND2X1_7/Y ->  NAND2X1_8/B
+   1247.1 ps  dot3_Ghl:  NAND2X1_8/Y -> NAND2X1_13/A
+   1425.6 ps      _20_: NAND2X1_13/Y -> NAND2X1_14/B
+   1613.7 ps  dot6_Ghl: NAND2X1_14/Y ->   XOR2X1_5/B
+   1802.1 ps       _5_:   XOR2X1_5/Y ->    BUFX2_6/A
+   1959.1 ps        s5:    BUFX2_6/Y -> s5
+
+Path input pin y0 to output pin ov delay 1678.29 ps
+      0.0 ps        y0:              ->    INVX1_8/A
+     68.7 ps      _21_:    INVX1_8/Y ->   NOR2X1_1/A
+    356.3 ps   dot0_Gl:   NOR2X1_1/Y ->  NAND2X1_1/A
+    539.0 ps       _8_:  NAND2X1_1/Y ->  NAND2X1_2/B
+    804.2 ps  dot0_Ghl:  NAND2X1_2/Y ->  NAND2X1_7/A
+    982.7 ps      _14_:  NAND2X1_7/Y ->  NAND2X1_8/B
+   1247.1 ps  dot3_Ghl:  NAND2X1_8/Y ->  NAND2X1_9/A
+   1425.6 ps      _16_:  NAND2X1_9/Y -> NAND2X1_10/B
+   1527.3 ps       _6_: NAND2X1_10/Y ->    BUFX2_7/A
+   1678.3 ps        ov:    BUFX2_7/Y -> ov
+
+Path input pin y0 to output pin s4 delay 1612.62 ps
+      0.0 ps        y0:             ->   INVX1_8/A
+     68.7 ps      _21_:   INVX1_8/Y ->  NOR2X1_1/A
+    356.3 ps   dot0_Gl:  NOR2X1_1/Y -> NAND2X1_1/A
+    539.0 ps       _8_: NAND2X1_1/Y -> NAND2X1_2/B
+    804.2 ps  dot0_Ghl: NAND2X1_2/Y -> NAND2X1_7/A
+    982.7 ps      _14_: NAND2X1_7/Y -> NAND2X1_8/B
+   1247.1 ps  dot3_Ghl: NAND2X1_8/Y ->  XOR2X1_4/B
+   1455.0 ps       _4_:  XOR2X1_4/Y ->   BUFX2_5/A
+   1612.6 ps        s4:   BUFX2_5/Y -> s4
+
+Path input pin y0 to output pin s3 delay 1516.22 ps
+      0.0 ps        y0:              ->    INVX1_8/A
+     68.7 ps      _21_:    INVX1_8/Y ->   NOR2X1_1/A
+    356.3 ps   dot0_Gl:   NOR2X1_1/Y ->  NAND2X1_1/A
+    539.0 ps       _8_:  NAND2X1_1/Y ->  NAND2X1_2/B
+    804.2 ps  dot0_Ghl:  NAND2X1_2/Y -> NAND2X1_11/A
+    982.7 ps      _18_: NAND2X1_11/Y -> NAND2X1_12/B
+   1170.9 ps  dot5_Ghl: NAND2X1_12/Y ->   XOR2X1_3/B
+   1359.2 ps       _3_:   XOR2X1_3/Y ->    BUFX2_4/A
+   1516.2 ps        s3:    BUFX2_4/Y -> s3
+
+Path input pin y0 to output pin s2 delay 1169.73 ps
+      0.0 ps        y0:             ->   INVX1_8/A
+     68.7 ps      _21_:   INVX1_8/Y ->  NOR2X1_1/A
+    356.3 ps   dot0_Gl:  NOR2X1_1/Y -> NAND2X1_1/A
+    539.0 ps       _8_: NAND2X1_1/Y -> NAND2X1_2/B
+    804.2 ps  dot0_Ghl: NAND2X1_2/Y ->  XOR2X1_2/B
+   1012.1 ps       _2_:  XOR2X1_2/Y ->   BUFX2_3/A
+   1169.7 ps        s2:   BUFX2_3/Y -> s2
+
+Path input pin y0 to output pin s1 delay 724.267 ps
+      0.0 ps       y0:            ->  INVX1_8/A
+     68.7 ps     _21_:  INVX1_8/Y -> NOR2X1_1/A
+    356.3 ps  dot0_Gl: NOR2X1_1/Y -> XOR2X1_1/B
+    566.6 ps      _1_: XOR2X1_1/Y ->  BUFX2_2/A
+    724.3 ps       s1:  BUFX2_2/Y -> s1
+
+Path input pin x0 to output pin s0 delay 312.971 ps
+      0.0 ps   x0:            -> XOR2X1_6/B
+    157.2 ps  _0_: XOR2X1_6/Y ->  BUFX2_1/A
+    313.0 ps   s0:  BUFX2_1/Y -> s0
+
+-----------------------------------------
+
+Number of paths analyzed:  7
+
+Top 7 minimum delay paths:
+Path input pin y0 to output pin s0 delay 269.923 ps
+      0.0 ps   y0:            -> XOR2X1_6/A
+    124.5 ps  _0_: XOR2X1_6/Y ->  BUFX2_1/A
+    269.9 ps   s0:  BUFX2_1/Y -> s0
+
+Path input pin y3 to output pin s3 delay 481.501 ps
+      0.0 ps    y3:            -> XOR2X1_9/A
+    180.8 ps  h_2_: XOR2X1_9/Y -> XOR2X1_3/A
+    336.1 ps   _3_: XOR2X1_3/Y ->  BUFX2_4/A
+    481.5 ps    s3:  BUFX2_4/Y -> s3
+
+Path input pin y5 to output pin s5 delay 481.501 ps
+      0.0 ps    y5:             -> XOR2X1_11/A
+    180.8 ps  h_4_: XOR2X1_11/Y ->  XOR2X1_5/A
+    336.1 ps   _5_:  XOR2X1_5/Y ->   BUFX2_6/A
+    481.5 ps    s5:   BUFX2_6/Y -> s5
+
+Path input pin y4 to output pin s4 delay 481.501 ps
+      0.0 ps    y4:             -> XOR2X1_10/A
+    180.8 ps  h_3_: XOR2X1_10/Y ->  XOR2X1_4/A
+    336.1 ps   _4_:  XOR2X1_4/Y ->   BUFX2_5/A
+    481.5 ps    s4:   BUFX2_5/Y -> s4
+
+Path input pin y2 to output pin s2 delay 481.501 ps
+      0.0 ps    y2:            -> XOR2X1_8/A
+    180.8 ps  h_1_: XOR2X1_8/Y -> XOR2X1_2/A
+    336.1 ps   _2_: XOR2X1_2/Y ->  BUFX2_3/A
+    481.5 ps    s2:  BUFX2_3/Y -> s2
+
+Path input pin y1 to output pin s1 delay 481.501 ps
+      0.0 ps    y1:            -> XOR2X1_7/A
+    180.8 ps  h_0_: XOR2X1_7/Y -> XOR2X1_1/A
+    336.1 ps   _1_: XOR2X1_1/Y ->  BUFX2_2/A
+    481.5 ps    s1:  BUFX2_2/Y -> s1
+
+Path input pin x5 to output pin ov delay 593.664 ps
+      0.0 ps        x5:              ->   INVX1_19/A
+    107.8 ps      _32_:   INVX1_19/Y ->   NOR2X1_6/B
+    190.5 ps   dot2_Gh:   NOR2X1_6/Y ->    INVX1_3/A
+    269.3 ps      _11_:    INVX1_3/Y ->  NAND2X1_6/A
+    326.8 ps  dot2_Ghl:  NAND2X1_6/Y ->    INVX1_5/A
+    402.4 ps      _15_:    INVX1_5/Y -> NAND2X1_10/A
+    460.0 ps       _6_: NAND2X1_10/Y ->    BUFX2_7/A
+    593.7 ps        ov:    BUFX2_7/Y -> ov
+
+-----------------------------------------
+
