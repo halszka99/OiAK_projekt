@@ -1,0 +1,12 @@
+Qflow project preparation output log Sun May 24 16:01:26 2020
+
+--------------------------------
+Qflow project setup
+--------------------------------
+
+Technology set to osu050
+Regenerating files for existing project dot
+
+No actions specified on command line;
+creating qflow script file /home/karolina/OiAK_projekt/qflow_exec.sh only.
+Uncomment lines in this file and source the file to run the flow.
