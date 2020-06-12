@@ -1,0 +1,46 @@
+* XSpice netlist created from SPICE and liberty sources by spi2xspice.py
+*SPICE netlist created from BLIF module in by blif2BSpice
+.subckt in a_vdd a_gnd a_x a_y a_g a_p a_h
+ABUFX2_1 [_2_] g d_lut_BUFX2
+ABUFX2_2 [_3_] h d_lut_BUFX2
+ABUFX2_3 [_4_] p d_lut_BUFX2
+AINVX1_1 [y] _0_ d_lut_INVX1
+AINVX1_2 [x] _1_ d_lut_INVX1
+ANOR2X1_1 [_0_ _1_] _2_ d_lut_NOR2X1
+ANAND2X1_1 [_0_ _1_] _4_ d_lut_NAND2X1
+AXOR2X1_1 [y x] _3_ d_lut_XOR2X1
+
+.model todig_5v adc_bridge(in_high=3.3333333333333335 in_low=1.6666666666666667 rise_delay=10n fall_delay=10n)
+.model toana_5v dac_bridge(out_high=5.0 out_low=0)
+
+.model ddflop d_dff(ic=0 rise_delay=1n fall_delay=1n)
+.model dzero d_pulldown(load=1p)
+.model done d_pullup(load=1p)
+
+AA2D1 [a_vdd] [vdd] todig_5v
+AA2D2 [a_gnd] [gnd] todig_5v
+AA2D3 [a_x] [x] todig_5v
+AA2D4 [a_y] [y] todig_5v
+AD2A1 [g] [a_g] toana_5v
+AD2A2 [p] [a_p] toana_5v
+AD2A3 [h] [a_h] toana_5v
+
+.ends in
+ 
+
+* BUFX2 A
+.model d_lut_BUFX2 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "01")
+* INVX1 (!A)
+.model d_lut_INVX1 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "10")
+* NOR2X1 (!(A+B))
+.model d_lut_NOR2X1 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "1000")
+* NAND2X1 (!(A B))
+.model d_lut_NAND2X1 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "1110")
+* XOR2X1 (A^B)
+.model d_lut_XOR2X1 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "0110")
+.end
