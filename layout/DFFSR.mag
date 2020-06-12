@@ -1,0 +1,172 @@
+magic
+tech scmos
+timestamp 1590329367
+<< metal1 >>
+rect -2 97 178 103
+rect 2 74 6 94
+rect 10 77 14 94
+rect 9 74 14 77
+rect 18 74 22 97
+rect 9 71 12 74
+rect 26 71 30 94
+rect 34 74 38 94
+rect 42 84 46 94
+rect 50 84 54 94
+rect 58 74 62 94
+rect 66 74 70 94
+rect 74 74 78 94
+rect 82 74 86 94
+rect 90 74 94 94
+rect 98 84 102 94
+rect 106 84 110 94
+rect 114 84 118 94
+rect 122 74 126 94
+rect 2 68 12 71
+rect 2 40 6 68
+rect 15 67 36 71
+rect 15 65 18 67
+rect 10 61 18 65
+rect 33 64 62 67
+rect 23 61 30 64
+rect 23 60 50 61
+rect 27 58 50 60
+rect 59 60 62 64
+rect 65 63 74 67
+rect 90 63 94 70
+rect 110 67 127 71
+rect 130 67 134 94
+rect 138 74 142 94
+rect 146 71 150 94
+rect 154 74 158 94
+rect 146 68 159 71
+rect 162 70 166 94
+rect 170 74 174 94
+rect 130 63 143 67
+rect 59 57 98 60
+rect 156 60 159 68
+rect 162 63 166 67
+rect 118 57 159 60
+rect 18 53 22 57
+rect 35 54 39 55
+rect 25 51 153 54
+rect 149 50 153 51
+rect 156 48 159 57
+rect 162 55 166 60
+rect 162 51 167 55
+rect 9 45 31 48
+rect 9 44 13 45
+rect 34 43 38 47
+rect 41 45 126 48
+rect 156 45 160 48
+rect 122 42 126 45
+rect 2 36 42 40
+rect 49 38 59 42
+rect 78 38 90 42
+rect 2 6 6 36
+rect 14 29 29 33
+rect 25 26 29 29
+rect 55 26 59 38
+rect 66 33 70 37
+rect 92 34 96 35
+rect 78 31 96 34
+rect 66 29 70 30
+rect 106 27 110 41
+rect 135 38 154 42
+rect 135 32 139 38
+rect 157 35 160 45
+rect 74 26 78 27
+rect 18 6 22 26
+rect 25 22 38 26
+rect 55 23 78 26
+rect 82 23 86 27
+rect 89 23 90 27
+rect 105 23 110 27
+rect 130 29 139 32
+rect 154 32 160 35
+rect 130 26 134 29
+rect 34 6 38 22
+rect 122 22 134 26
+rect 42 6 46 16
+rect 50 6 54 16
+rect 58 6 62 16
+rect 66 6 70 16
+rect 74 6 78 16
+rect 82 6 86 16
+rect 90 6 94 16
+rect 98 6 102 16
+rect 106 6 110 16
+rect 114 6 118 16
+rect 122 6 126 22
+rect 138 6 142 26
+rect 154 6 158 32
+rect 163 29 167 51
+rect 162 25 167 29
+rect 162 6 166 25
+rect 170 6 174 16
+rect -2 -3 178 3
+<< m2contact >>
+rect 42 80 46 84
+rect 50 80 54 84
+rect 98 80 102 84
+rect 106 80 110 84
+rect 114 80 118 84
+rect 58 70 62 74
+rect 74 70 78 74
+rect 90 70 94 74
+rect 50 57 54 61
+rect 74 63 78 67
+rect 106 67 110 71
+rect 98 57 102 61
+rect 114 57 118 61
+rect 42 36 46 40
+rect 90 38 94 42
+rect 74 30 78 34
+rect 42 16 46 20
+rect 50 16 54 20
+rect 58 16 62 20
+rect 74 16 78 20
+rect 90 16 94 20
+rect 98 16 102 20
+rect 106 16 110 20
+rect 114 16 118 20
+<< metal2 >>
+rect 42 40 46 80
+rect 42 20 46 36
+rect 50 61 54 80
+rect 50 20 54 57
+rect 58 20 62 70
+rect 74 67 78 70
+rect 74 34 78 63
+rect 74 20 78 30
+rect 90 42 94 70
+rect 90 20 94 38
+rect 98 61 102 80
+rect 98 20 102 57
+rect 106 71 110 80
+rect 106 20 110 67
+rect 114 61 118 80
+rect 114 20 118 57
+<< labels >>
+rlabel metal1 162 63 166 67 6 Q
+port 1 nsew default output
+rlabel metal1 82 23 86 27 6 CLK
+port 2 nsew default input
+rlabel metal1 34 43 38 47 6 R
+port 3 nsew default input
+rlabel metal1 18 53 22 57 6 S
+port 4 nsew default input
+rlabel metal1 66 33 70 37 6 D
+port 5 nsew default input
+rlabel metal1 -2 -3 178 3 8 gnd
+port 6 nsew ground bidirectional
+rlabel metal1 18 74 22 103 6 vdd
+port 7 nsew power bidirectional
+rlabel metal1 -2 97 178 103 6 vdd
+port 7 nsew power bidirectional
+<< properties >>
+string LEFclass CORE
+string LEFsite core
+string LEFview TRUE
+string FIXED_BBOX 0 0 176 100
+string LEFsymmetry X Y
+<< end >>

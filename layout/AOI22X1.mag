@@ -1,0 +1,51 @@
+magic
+tech scmos
+timestamp 1590329367
+<< metal1 >>
+rect -2 97 42 103
+rect 2 57 6 94
+rect 10 60 14 94
+rect 18 91 38 94
+rect 18 57 22 91
+rect 2 54 22 57
+rect 26 54 30 88
+rect 34 54 38 91
+rect 26 51 29 54
+rect 19 50 29 51
+rect 34 50 38 51
+rect 2 43 6 47
+rect 9 44 10 49
+rect 25 48 29 50
+rect 18 43 22 47
+rect 34 43 38 47
+rect 10 40 14 41
+rect 25 40 29 43
+rect 10 33 14 37
+rect 19 26 22 40
+rect 26 33 30 37
+rect 4 6 8 26
+rect 17 6 25 26
+rect 34 6 38 26
+rect -2 -3 42 3
+<< labels >>
+rlabel metal1 2 43 6 47 6 A
+port 1 nsew default input
+rlabel metal1 10 33 14 37 6 B
+port 2 nsew default input
+rlabel metal1 34 43 38 47 6 C
+port 3 nsew default input
+rlabel metal1 26 33 30 37 6 D
+port 4 nsew default input
+rlabel metal1 -2 -3 42 3 8 gnd
+port 5 nsew ground bidirectional
+rlabel metal1 18 43 22 47 6 Y
+port 6 nsew default output
+rlabel metal1 -2 97 42 103 6 vdd
+port 7 nsew power bidirectional
+<< properties >>
+string LEFclass CORE
+string LEFsite core
+string LEFview TRUE
+string FIXED_BBOX 0 0 40 100
+string LEFsymmetry X Y
+<< end >>

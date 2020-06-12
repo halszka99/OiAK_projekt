@@ -1,0 +1,112 @@
+magic
+tech scmos
+timestamp 1590329367
+<< metal1 >>
+rect -2 97 122 103
+rect 2 57 6 94
+rect 10 60 14 94
+rect 18 57 22 94
+rect 2 54 22 57
+rect 26 58 30 94
+rect 39 54 43 94
+rect 47 61 51 94
+rect 55 64 59 94
+rect 63 61 67 94
+rect 47 58 67 61
+rect 47 54 51 58
+rect 71 51 76 94
+rect 64 47 68 51
+rect 10 43 14 47
+rect 18 43 22 47
+rect 25 46 26 47
+rect 90 46 94 94
+rect 98 77 102 94
+rect 97 74 102 77
+rect 106 74 110 94
+rect 114 74 118 94
+rect 97 49 100 74
+rect 108 53 112 57
+rect 97 46 107 49
+rect 25 45 55 46
+rect 25 44 59 45
+rect 25 43 76 44
+rect 52 41 76 43
+rect 72 40 76 41
+rect 11 39 14 40
+rect 11 38 18 39
+rect 29 38 33 39
+rect 11 37 51 38
+rect 80 37 84 38
+rect 2 33 6 37
+rect 11 36 84 37
+rect 14 35 84 36
+rect 47 34 84 35
+rect 89 34 93 38
+rect 97 35 101 39
+rect 9 32 10 33
+rect 9 31 41 32
+rect 89 31 92 34
+rect 9 30 92 31
+rect 104 30 107 46
+rect 115 40 118 74
+rect 114 33 118 37
+rect 6 29 92 30
+rect 37 28 92 29
+rect 2 23 22 26
+rect 2 6 6 23
+rect 10 6 14 20
+rect 18 6 22 23
+rect 26 6 30 22
+rect 39 6 43 24
+rect 47 22 67 25
+rect 47 6 51 22
+rect 55 6 59 19
+rect 63 6 67 22
+rect 71 6 76 21
+rect 90 6 94 25
+rect 106 23 110 27
+rect 99 20 103 22
+rect 99 19 107 20
+rect 99 16 102 19
+rect 115 16 118 30
+rect 98 6 102 16
+rect 106 6 110 16
+rect 114 6 118 16
+rect -2 -3 122 3
+<< m2contact >>
+rect 26 54 30 58
+rect 60 48 64 52
+rect 72 47 76 51
+rect 104 53 108 57
+rect 97 39 101 43
+rect 26 22 30 26
+rect 72 21 76 25
+<< metal2 >>
+rect 30 54 104 57
+rect 27 26 30 54
+rect 60 52 64 54
+rect 73 42 76 47
+rect 73 39 97 42
+rect 73 25 76 39
+<< labels >>
+rlabel metal1 114 33 118 37 6 YC
+port 1 nsew default output
+rlabel metal1 106 23 110 27 6 YS
+port 2 nsew default output
+rlabel metal1 2 33 6 37 6 A
+port 3 nsew default input
+rlabel metal1 10 43 14 47 6 B
+port 4 nsew default input
+rlabel metal1 18 43 22 47 6 C
+port 5 nsew default input
+rlabel metal1 -2 -3 122 3 8 gnd
+port 6 nsew ground bidirectional
+rlabel metal1 -2 97 122 103 6 vdd
+port 7 nsew power bidirectional
+<< properties >>
+string LEFclass CORE
+string LEFsite core
+string LEFview TRUE
+string FIXED_BBOX 0 0 120 100
+string LEFsymmetry X Y
+<< end >>

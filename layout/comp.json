@@ -1,0 +1,114 @@
+[
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "dot",
+      "dot"
+   ],
+   "devices": [
+       [
+         ["NAND2X1", 2],
+         ["INVX1", 1],
+         ["AND2X2", 1],
+         ["BUFX2", 2 ]
+       ], [
+         ["NAND2X1", 2 ],
+         ["INVX1", 1 ],
+         ["AND2X2", 1 ],
+         ["BUFX2", 2 ]
+       ]
+   ],
+   "nets": [
+    12,
+    12
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "Gh",
+        "Gl",
+        "Pl",
+        "Phl",
+        "Ghl",
+        "Ph",
+        "(no matching pin)",
+        "(no matching pin)"
+      ], [
+        "Gh",
+        "Gl",
+        "Pl",
+        "Phl",
+        "Ghl",
+        "Ph",
+        "vdd",
+        "gnd"
+      ]
+   ]
+  }
+]

@@ -1,0 +1,18 @@
+magic
+tech scmos
+timestamp 1590329367
+<< metal1 >>
+rect -2 97 10 103
+rect -2 -3 10 3
+<< labels >>
+rlabel metal1 -2 -3 10 3 8 gnd
+port 1 nsew ground bidirectional
+rlabel metal1 -2 97 10 103 6 vdd
+port 2 nsew power bidirectional
+<< properties >>
+string LEFclass CORE
+string LEFsite core
+string LEFview TRUE
+string FIXED_BBOX 0 0 8 100
+string LEFsymmetry X Y
+<< end >>

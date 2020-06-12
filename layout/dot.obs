@@ -1,0 +1,8 @@
+obstruction -7.2 33.0 64.8 39.0 metal1
+obstruction -7.2 -3.0 64.8 0.3 metal1
+obstruction -7.2 -3.0 0.0 39.0 metal1
+obstruction 60.0 -3.0 64.8 39.0 metal1
+obstruction 0.0 33.0 60.0 39.0 metal3
+obstruction 0.0 -3.0 60.0 0.3 metal3
+obstruction -7.2 0.3 0.0 33.0 metal2
+obstruction 60.0 0.3 64.8 33.0 metal2

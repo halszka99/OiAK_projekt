@@ -1,0 +1,25 @@
+#-----------------------------------------------------
+# .magicrc startup file for OSU050 project under qflow
+#-----------------------------------------------------
+
+path sys +/usr/share/qflow/tech/osu050
+tech load SCN3ME_SUBM.30 -noprompt
+scalegrid 1 4
+set GND gnd
+set VDD vdd
+
+drc euclidean on
+drc off
+
+addpath digital
+
+
+# Qflow: read layout for review
+openwrapper
+box 0 0 0 0
+drc off
+gds read /usr/share/qflow/tech/osu050/osu05_stdcells.gds2
+load dot
+select top cell
+expand
+view
